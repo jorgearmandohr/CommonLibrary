@@ -1,0 +1,65 @@
+{
+  "Jahr.Architecture.Core.Validator.dll": {
+    "/Users/jorge.armando/repos/personal/CommonLibrary/src/Core/Jahr.Architecture.Core.Validator/ObjectValidator.cs": {
+      "Jahr.Architecture.Core.Validator.ObjectValidator": {
+        "System.Boolean Jahr.Architecture.Core.Validator.ObjectValidator::get_IsValid()": {
+          "Lines": {
+            "29": 2,
+            "30": 2,
+            "31": 2
+          },
+          "Branches": []
+        },
+        "System.String Jahr.Architecture.Core.Validator.ObjectValidator::ValidationResultAsString()": {
+          "Lines": {
+            "38": 2,
+            "39": 2,
+            "40": 18,
+            "41": 6,
+            "42": 6,
+            "43": 6,
+            "45": 2,
+            "46": 2
+          },
+          "Branches": [
+            {
+              "Line": 40,
+              "Offset": 117,
+              "EndOffset": 22,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 6
+            },
+            {
+              "Line": 40,
+              "Offset": 117,
+              "EndOffset": 119,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            }
+          ]
+        },
+        "System.Boolean Jahr.Architecture.Core.Validator.ObjectValidator::Validate()": {
+          "Lines": {
+            "49": 2,
+            "50": 2,
+            "51": 2,
+            "53": 2,
+            "54": 2
+          },
+          "Branches": []
+        },
+        "System.Void Jahr.Architecture.Core.Validator.ObjectValidator::.ctor()": {
+          "Lines": {
+            "16": 3,
+            "17": 3,
+            "18": 3,
+            "19": 3
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{09853DB6-1358-43AE-9A16-7CBE1CAFB31A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{D208E02D-0AEA-4CAF-BE4D-7DA2644FAC2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jahr.Architecture.Core.Validator", "src\Core\Jahr.Architecture.Core.Validator\Jahr.Architecture.Core.Validator.csproj", "{7B17E0A9-30FB-456B-B482-215154A3C472}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{64C33D57-6621-4983-953F-3BF2C942C70F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jahr.Architecture.Core.Tests", "test\TestsUnit\Jahr.Architecture.Core.Tests.csproj", "{F440B0E3-26CF-4D32-A424-16350B1140B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B17E0A9-30FB-456B-B482-215154A3C472}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B17E0A9-30FB-456B-B482-215154A3C472}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B17E0A9-30FB-456B-B482-215154A3C472}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B17E0A9-30FB-456B-B482-215154A3C472}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F440B0E3-26CF-4D32-A424-16350B1140B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F440B0E3-26CF-4D32-A424-16350B1140B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F440B0E3-26CF-4D32-A424-16350B1140B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F440B0E3-26CF-4D32-A424-16350B1140B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D208E02D-0AEA-4CAF-BE4D-7DA2644FAC2E} = {09853DB6-1358-43AE-9A16-7CBE1CAFB31A}
+		{7B17E0A9-30FB-456B-B482-215154A3C472} = {D208E02D-0AEA-4CAF-BE4D-7DA2644FAC2E}
+		{F440B0E3-26CF-4D32-A424-16350B1140B9} = {64C33D57-6621-4983-953F-3BF2C942C70F}
+	EndGlobalSection
+EndGlobal
